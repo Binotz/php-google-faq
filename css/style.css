@@ -4,9 +4,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 ul{
     list-style-type: none;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 li{
-    display: inline;
+    padding: 1rem 0;
+    margin: 0 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    border-bottom: 1px solid black;
+    height: 3rem;
+}
+img{
+    width: 10%;
+    padding: 1rem 0;
+}
+h1{
+    display: inline-block;
+    padding: 1rem;
+}
+/* COMMON */
+.container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+.active{
+    border-bottom: 3px solid blue;
+}
+.active a{
+    color: blue;
+}
+.title{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+h3{
+    margin-bottom: 1.5rem;
+}
+.FAQ{
+    margin-bottom: 4rem;
 }
